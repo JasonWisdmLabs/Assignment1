@@ -67,6 +67,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px 100px;
+    margin-bottom: 14%;
 }
 
 .hero-text {
@@ -113,5 +114,49 @@ body {
     height: 549px;
     gap: 4px;
     background-color: #C4DEFD;
+    border-radius: 8px;
+}
+
+.collaboration-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    margin-bottom: 14%;
+}
+
+.collaboration-text {
+    max-width: 500px;
+}
+
+.collaboration-text h1 {
+    font-size: 72px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.collaboration-text p {
+    font-size: 18px;
+    color: #4F9CF9;
+    margin-bottom: 30px;
+}
+
+.collaboration-text .cta-button {
+    background-color: #4F9CF9;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.collaboration-text .cta-button:hover {
+    background-color: #1558b0;
+}
+
+.collaboration-image img {
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
 }
