@@ -168,17 +168,21 @@ body {
     text-align: center;
     background-color: white;
 }
-
-.pricing-section h2 {
-    font-size: 32px;
-    color: #043873;
+.pricing-section h1 {
+    font-size: 72px;
+    color: black;
     margin-bottom: 30px;
+}
+.pricing-section p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 60px;
 }
 
 .pricing-cards {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 32px;
 }
 
 .pricing-card {
@@ -202,18 +206,25 @@ body {
 
 .pricing-card h3 {
     font-size: 24px;
+    margin-left: 28px;
     margin-bottom: 10px;
 }
 
 .pricing-card .price {
     font-size: 36px;
     font-weight: bold;
+    margin-left: 28px;
     margin-bottom: 10px;
+}
+
+.pricing-card:hover .price{
+    color: #043873;
 }
 
 .pricing-card .subtitle {
     font-size: 18px;
-    color: #6c757d;
+    color: black;
+    margin-left: 28px;
     margin-bottom: 20px;
 }
 
@@ -221,7 +232,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0 0 20px 0;
-    color: #6c757d;
+    color: black;
     font-size: 16px;
 }
 
@@ -236,10 +247,15 @@ body {
 .pricing-card .features li img {
     width: 16px;
     height: 16px;
+    margin-left: 28px;
     transition: filter 0.4s, transform 0.4s;
 }
 
 .pricing-card:hover .features li {
+    color: #043873;
+}
+
+.pricing-card:hover .subtitle{
     color: #043873;
 }
 
@@ -250,9 +266,10 @@ body {
 
 .pricing-card .get-started {
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid #FFE492;
     padding: 10px 20px;
     border-radius: 4px;
+    margin-left: 28px;
     color: black;
     font-size: 16px;
     cursor: pointer;
