@@ -3,6 +3,9 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: white;
 }
+*{
+    border-width: box-sizing;
+}
 
 .navbar {
     display: flex;
@@ -116,12 +119,14 @@ body {
     border-radius: 8px;
 }
 
-.collaboration-image img {
+
+/*Work Together Session*/
+.worktogether-image img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
-.collaboration-section {
+.worktogether-session {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -129,23 +134,23 @@ body {
     margin-bottom: 14%;
 }
 
-.collaboration-text {
+.worktogether-text {
     max-width: 700px;
 }
 
-.collaboration-text h1 {
+.worktogether-text h1 {
     font-size: 72px;
     color: black;
     margin-bottom: 20px;
 }
 
-.collaboration-text p {
+.worktogether-text p {
     font-size: 18px;
     color: #4F9CF9;
     margin-bottom: 30px;
 }
 
-.collaboration-text .cta-button {
+.worktogether-text .cta-button {
     background-color: #4F9CF9;
     border: none;
     padding: 12px 24px;
@@ -155,7 +160,7 @@ body {
     cursor: pointer;
 }
 
-.collaboration-text .cta-button:hover {
+.worktogether-text .cta-button:hover {
     background-color: #1558b0;
 }
 
@@ -281,4 +286,179 @@ body {
     color: white;
     border: 0px;
     transition: 15ms;
+}
+
+
+/*everywhere-section*/
+.everywhere-section {
+    background-color: #043873;
+    color: white;
+    padding: 140px 220px;
+    text-align: center;
+}
+
+.everywhere-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.everywhere-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.everywhere-section .cta-button {
+    background-color: #4F9CF9;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.everywhere-section .cta-button:hover {
+    background-color: #1558b0;
+}
+
+/*data section*/
+.data-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.data-text {
+    max-width: 500px;
+}
+
+.data-text h1 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.data-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.data-text .cta-button {
+    background-color: #4F9CF9;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.data-text .cta-button:hover {
+    background-color: #1558b0;
+}
+
+.data-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sponsors-section {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.sponsors-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #4F9CF9;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.sponsor-logos img {
+    height: 71px;
+    padding: 50px;
+    transition: filter 0.3s ease;
+}
+
+.favorite-apps-section {
+    background-color: #043873;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.favorite-apps-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.favorite-apps-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.favorite-apps-section .cta-button {
+    background-color: #4F9CF9;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.favorite-apps-section .cta-button:hover {
+    background-color: #1558b0;
+}
+
+.trusted-users-section {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.trusted-users-section h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #4F9CF9;
+}
+
+.testimonials {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4F9CF9;
+    margin-bottom: 5px;
+}
+
+.testimonial span {
+    font-size: 14px;
+    color: #555;
 }
