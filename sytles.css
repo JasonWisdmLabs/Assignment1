@@ -3,10 +3,6 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: white;
 }
-*{
-    border-width: box-sizing;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -388,24 +384,47 @@ body {
     transition: filter 0.3s ease;
 }
 
+
 .favorite-apps-section {
     background-color: #043873;
+    background-image: url(Work\ Together\ Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
-    padding: 50px 100px;
-    text-align: center;
+    padding: 140px 220px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.favorite-apps-section h1 {
+.favorite-apps-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.favorite-apps-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+.favorite-apps-text h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-.favorite-apps-section p {
+.favorite-apps-text p {
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-.favorite-apps-section .cta-button {
+.favorite-apps-text .cta-button {
     background-color: #4F9CF9;
     border: none;
     padding: 12px 24px;
@@ -415,9 +434,23 @@ body {
     cursor: pointer;
 }
 
-.favorite-apps-section .cta-button:hover {
+.favorite-apps-text .cta-button:hover {
     background-color: #1558b0;
 }
+
+.favorite-apps-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.favorite-apps-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 .trusted-users-section {
     text-align: center;
