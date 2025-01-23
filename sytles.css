@@ -265,7 +265,7 @@ body {
 }
 
 .pricing-card:hover .features li img {
-    filter: invert(25%) sepia(68%) saturate(2046%) hue-rotate(203deg) brightness(95%) contrast(92%);
+    content: url(blue-tick.png);
     transform: scale(1.2);
 }
 
