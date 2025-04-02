@@ -1,6 +1,3 @@
-Here’s the full markdown documentation for **Editing Custom Page URL** in Edwiser RemUI, including all the provided notes and steps, in one file:
-
-```markdown
 # Edit Custom Page URL in Theme RemUI
 
 ## Feature Name
@@ -85,7 +82,7 @@ RewriteRule ^custom-page/([0-9]+)$ /local/edwiserpagebuilder/page.php?id=$1 [L]
 Now, pages will be accessible at:
 ```
 http://example.moodle.com/custom-page/5
-```
+
 
 ### Final Step: Restart Your Server
 - **For Nginx:**
@@ -105,3 +102,7 @@ Now your custom pages should be accessible via their new clean URLs!
 ```
 
 This is the entire **markdown** code for **editing custom page URLs** in **Edwiser RemUI**. You can copy and paste it directly into your markdown file to use it as documentation.
+
+[Source: Edwiser RemUI Theme Documentation](https://remui-docs.edwiser.org/custom-page-creation/edit-custom-page-url)
+
+This feature demonstrates Theme RemUI's commitment to providing professional URL management capabilities, enabling administrators to create clean and SEO-friendly URLs for their custom pages while maintaining compatibility with different server configurations. 
